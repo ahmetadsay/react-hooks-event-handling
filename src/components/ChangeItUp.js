@@ -1,5 +1,3 @@
-import React from "react";
-
 function ChangeItUp() {
   function handleChange(event) {
     console.log(`${event.target.name}: ${event.target.value}`);
@@ -23,4 +21,4 @@ function ChangeItUp() {
   );
 }
 
-export default ChangeItUp;
+export default ChangeItUp
